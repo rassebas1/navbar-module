@@ -1,19 +1,33 @@
 {
-  "name": "navbar-module",
+  "name": "@sebastian/navbar",
   "private": true,
-  "version": "0.0.0",
+  "version": "0.1.0",
   "scripts": {
-    "dev": "vite",
+    "dev": "vite --port 3001",
     "build": "vue-tsc --noEmit && vite build",
     "preview": "vite preview"
   },
   "dependencies": {
-    "vue": "^3.2.25"
+    "sass": "^1.52.3",
+    "single-spa-vue": "^2.5.1",
+    "systemjs": "^6.12.1",
+    "systemjs-webpack-interop": "^2.3.7",
+    "vue": "^3.2.25",
+    "vue-router": "^4.0.16",
+    "vuex": "^4.0.2"
   },
   "devDependencies": {
+    "@rollup/plugin-commonjs": "^22.0.1",
+    "@rollup/plugin-html": "^0.2.4",
     "@vitejs/plugin-vue": "^2.3.3",
+    "serve": "^12.0.0",
+    "ts-config-single-spa": "^3.0.0",
     "typescript": "^4.5.4",
     "vite": "^2.9.9",
-    "vue-tsc": "^0.34.7"
+    "vue-tsc": "^0.34.7",
+    "webpack": "^5.51.1",
+    "webpack-cli": "^4.10.0",
+    "webpack-config-single-spa-ts": "^4.0.0",
+    "webpack-dev-server": "^4.9.2"
   }
 }
