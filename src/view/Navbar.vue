@@ -18,7 +18,7 @@
         :class="selectedItem === 2 ? 'active' : ''"
         @click="changeSelection(2)"
       >
-        <router-link to="#">
+        <router-link to="/vue">
           <span class="icon">
             <ion-icon name="logo-vue"></ion-icon>
           </span>
