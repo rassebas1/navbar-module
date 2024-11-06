@@ -6,7 +6,7 @@
         :class="selectedItem === 1 ? 'active' : ''"
         @click="changeSelection(1)"
       >
-        <router-link to="#">
+        <router-link to="home">
           <span class="icon">
             <ion-icon name="home-outline"></ion-icon>
           </span>

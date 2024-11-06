@@ -11,7 +11,6 @@ export default defineConfig({
     rollupOptions: {
       input: 'src/main.ts',
       output: {
-        
         entryFileNames:"main.js",
         format: 'system',
         dir: 'dist',
